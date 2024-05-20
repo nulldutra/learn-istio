@@ -36,6 +36,6 @@ kubectl label namespace default istio-injection=enabled
 
 The bookinfo is a demo application to practical istio configuration, see the notes:
 
-![bookinfo-istio](./docs/bookinfo.md)
+[Installing the bookinfo application](./docs/bookinfo.md)
 
 ### 
