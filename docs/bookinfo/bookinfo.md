@@ -1,13 +1,13 @@
 ### Deploying bookinfo sample
 
 ```sh
-k apply -f samples/bookinfo/platform/kube/bookinfo.yaml
+k apply -f examples/istio/samples/bookinfo/platform/kube/bookinfo.yaml
 ```
 
 ### Deploying bookinfo gateway and virtual service
 
 ```sh
-k apply -f samples/bookinfo/networking/bookinfo-gateway.yaml
+k apply -f examples/istio/samples/bookinfo/networking/bookinfo-gateway.yaml
 ```
 
 ### Deploying ingress
@@ -33,7 +33,7 @@ export GATEWAY_URL=$INGRESS_HOST:$INGRESS_PORT
 ### Deploying addons
 
 ```sh
-k apply -f samples/addons
+k apply -f examples/istio/samples/addons
 ```
 
 ### Acessing dashboards
