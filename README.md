@@ -32,10 +32,12 @@ kubectl label namespace default istio-injection=enabled
 
 <hr>
 
-### Bookinfo
+### Examples
 
 The bookinfo is a demo application to practical istio configuration, see the notes:
 
 [Installing the bookinfo application](./docs/bookinfo/bookinfo.md)
 
-### 
+HTTP traffic shifting
+
+[Configuring HTTP traffic shifting](./docs/http-traffic-shifting/http-traffic-shifting.md)

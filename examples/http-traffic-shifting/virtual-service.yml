@@ -1,0 +1,18 @@
+---
+apiVersion: networking.istio.io/v1beta1
+kind: VirtualService
+metadata:
+  name: hello
+spec:
+  hosts:
+  - "hello"
+  http:
+  - route:
+    - destination:
+        host: hello
+        subset: v1
+      weight: 80
+    - destination:
+        host: hello
+        subset: v2
+      weight: 20
