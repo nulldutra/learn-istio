@@ -41,3 +41,8 @@ The bookinfo is a demo application to practical istio configuration, see the not
 HTTP traffic shifting
 
 [Configuring HTTP traffic shifting](./docs/http-traffic-shifting/http-traffic-shifting.md)
+
+Consistent Hashing
+
+[Configuring consistent hashing based on HTTP header](./docs/consistent-hash/consistent-hash.md)
+

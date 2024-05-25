@@ -1,0 +1,16 @@
+---
+apiVersion: networking.istio.io/v1beta1
+kind: DestinationRule
+metadata:
+  name: hello-consistent-hash-ds
+spec:
+  host: hello
+  trafficPolicy:
+    loadBalancer:
+      consistentHash:
+        httpHeaderName: "x-api-key"
+  subsets:
+  - name: all
+    labels:
+      app: hello
+  

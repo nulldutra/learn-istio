@@ -1,0 +1,13 @@
+---
+apiVersion: networking.istio.io/v1beta1
+kind: VirtualService
+metadata:
+  name: hello-consistent-hash-vs
+spec:
+  hosts:
+  - "hello"
+  http:
+  - route:
+    - destination:
+        host: hello
+        subset: all
