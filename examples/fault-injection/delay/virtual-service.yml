@@ -1,0 +1,19 @@
+---
+apiVersion: networking.istio.io/v1beta1
+kind: VirtualService
+metadata:
+  name: hello-fault-injection-delay-vs
+spec:
+  hosts:
+  - "hello"
+  http:
+  - fault:
+      delay:
+        fixedDelay: 5s
+        percentage: # Percent of traffic with delay
+          value: 20
+
+    route:
+    - destination:
+        host: hello
+        subset: all

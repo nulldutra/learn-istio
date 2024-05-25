@@ -46,3 +46,9 @@ Consistent Hashing
 
 [Configuring consistent hashing based on HTTP header](./docs/consistent-hash/consistent-hash.md)
 
+Fault injection
+
+[Configuring fault injection based on HTTP status code](./docs/fault-injection/fault-injection.md#response-time)
+
+[Configuring fault injection based on HTTP response time](./docs/fault-injection/fault-injection.md#http-status-code)
+

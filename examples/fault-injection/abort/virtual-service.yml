@@ -1,0 +1,19 @@
+---
+apiVersion: networking.istio.io/v1beta1
+kind: VirtualService
+metadata:
+  name: hello-fault-injection-abort-vs
+spec:
+  hosts:
+  - "hello"
+  http:
+  - fault:
+      abort:
+        httpStatus: 500
+        percentage: # Percent of traffic with delay
+          value: 60
+
+    route:
+    - destination:
+        host: hello
+        subset: all
