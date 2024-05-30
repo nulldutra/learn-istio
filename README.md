@@ -2,9 +2,15 @@
 
 This repository is just my notes about Istio, it's not a tutorial, but, maybe it will be useful to you. :)
 
-## Cluster setup
+## Setup
 
 I use the Kind to create a local kubernetes cluster, it's possible learn istio using only kind.
+
+```sh
+./setup.sh
+```
+
+## Run the commands manually 
 
 Creating kind cluster:
 
