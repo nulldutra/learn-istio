@@ -1,5 +1,7 @@
 ## Consistent Hashing
 
+Consistent hashing is a method for evenly distributing traffic among multiple instances of a service. It ensures that requests with similar attributes are consistently routed to the same backend instance
+
 ### Applying
 
 ```sh
