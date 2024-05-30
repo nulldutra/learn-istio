@@ -34,21 +34,27 @@ kubectl label namespace default istio-injection=enabled
 
 ### Examples
 
+## Bookinfo
+
 The bookinfo is a demo application to practical istio configuration, see the notes:
 
 [Installing the bookinfo application](./docs/bookinfo/bookinfo.md)
 
-HTTP traffic shifting
+## HTTP traffic shifting
 
 [Configuring HTTP traffic shifting](./docs/http-traffic-shifting/http-traffic-shifting.md)
 
-Consistent Hashing
+## Consistent Hashing
 
 [Configuring consistent hashing based on HTTP header](./docs/consistent-hash/consistent-hash.md)
 
-Fault injection
+## Fault injection
 
 [Configuring fault injection based on HTTP status code](./docs/fault-injection/fault-injection.md#response-time)
 
 [Configuring fault injection based on HTTP response time](./docs/fault-injection/fault-injection.md#http-status-code)
+
+## Gateways
+
+[Configuring istio gateways](./docs/gateways/gateways.md)
 
