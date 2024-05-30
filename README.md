@@ -46,6 +46,10 @@ The bookinfo is a demo application to practical istio configuration, see the not
 
 [Installing the bookinfo application](./docs/bookinfo/bookinfo.md)
 
+## Base manifests
+
+[Configuring manifests for practicing the examples](./docs/deployments/deployments.md)
+
 ## HTTP traffic shifting
 
 [Configuring HTTP traffic shifting](./docs/http-traffic-shifting/http-traffic-shifting.md)
